@@ -1,0 +1,142 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    min-width: 1000px;
+    background-color: #f5f5f5;
+    font-family: Arial;
+}
+
+h2 {
+    margin: 0 0 31px;
+    font-size: 21px;
+    font-weight: normal;
+}
+
+.fixed-container {
+    width: 960px;
+    margin: 65px auto 0 auto;
+    overflow-y: hidden;
+}
+
+.buttonToDo,
+.to-do-clear,
+.to-do-close,
+.to-do-open {
+    cursor: pointer;
+}
+
+#left-container,
+#right-container {
+ width: 470px;
+}
+
+#left-container {
+    float: left;  
+}
+
+    #list-false {
+        color: #8993ad;
+        margin-top: 78px;
+    }
+
+        .to-do-container {
+            overflow: hidden;
+            padding: 18px 0 16px 20px;
+            background-color: white;
+            border-bottom: #f7f7f7 solid 1px;
+            overflow: hidden;
+            margin-top: 20px;
+        }
+
+            .to-do-name {
+                margin: 0 24px 0 0;
+                font-weight: normal;
+                font-size: 16px;
+                float: left;
+            }
+
+            .to-do-clear {
+                float: left;
+                position: relative;
+                top: 5px;
+            }
+
+            .to-do-close,
+            .to-do-open {
+                float: right;
+                margin-right: 24px;
+                position: relative;
+                top: 9px;
+            }
+
+            .to-do-open {
+                display: none;
+            }
+
+        .to-do-text {
+            padding: 10px 10px 10px 20px;
+            height: 85px;
+            color: #8993ad;
+            font-size: 14px;
+            background-color: white;
+        }
+
+
+#right-container {
+ float: right;
+}
+
+    #case-container {
+        padding-left: 40px;
+        background-color: white;
+    }
+
+        .case-item {
+            color: #8993ad;
+            font-size: 14px;
+            margin-bottom: 10px;
+            padding-top: 30px;
+            display: block;
+        }
+
+        .case-form {
+           width: 390px;
+           background-color: #fcfcfc;
+           border: #f6f6f6 solid 1px;
+           outline: none;
+           font-size: 16px;
+           
+        }
+
+        #form-name {
+            height: 45px;
+        }
+
+        #form-text {
+            height: 230px;
+            font-family: Arial;
+            resize: none;
+        }
+
+        .case-form-new {
+            background-color: #f9f9f9;
+            border: 1px solid #d3d2d2;
+        }
+
+        .case-form-false {
+            border: 1px solid red;
+        }
+
+        .buttonToDo {
+            margin: 30px 0 36px;
+            padding: 20px 56px;
+            background-color: #2174fd;
+            color: white;
+            border: 0;
+            font-size: 16px;
+        }
+
+        .buttonToDo:hover {
+            background-color: #2175fde0;
+        }

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/code.jquery.com_jquery-3.7.1.min.js"></script>
+    <script src="js/script.js"></script>
+    <title>Список дел</title>
+</head>
+<body>
+    <main class="fixed-container">
+        <div id="left-container">
+            <h2>Список дел:</h2>
+            <div id="list-false">
+                Список пуст...
+            </div>
+            <div id="to-do-list"></div>
+        </div>
+        <div id="right-container" >
+            <h2>Добавить новое дело</h2>
+            <div id="case-container">
+                <label class="case-item" for="form-name">* Название</label>
+                <input  id="form-name" class="case-form" type="text" maxlength="32" autocomplete="off" name="name">
+                <label class="case-item" for="form-text">* Описание</label>
+                <textarea id="form-text" class="case-form" maxlength="219"  name="text"></textarea>
+                <button class="buttonToDo">Добавить дело</button>
+            </div>
+        </div>     
+    </main>
+</body>
+</html>
